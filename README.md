@@ -46,6 +46,7 @@ _Deforestation_:
 sin() and cos() generate floating/pulsing effects, with colour coding for forest loss (reds/oranges) and regrowth (greens)
 
 Peer feedback influenced colour hierarchy, layering, and spacing for improved interpretability
+
 Emphasis on balancing aesthetic impact with accuracy, ensuring viewers understand the data while remaining visually engaged
 
 Setup
