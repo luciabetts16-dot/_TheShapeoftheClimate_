@@ -22,7 +22,9 @@ This project falls under the artistic and data-driven visualisation category. I 
 Coding Environment
 
 Device: Laptop
+
 Software: Processing (Java mode) - primary development environment
+
 Libraries: Default Processing graphics functions
 
 Resources Used:
@@ -34,9 +36,11 @@ Functionality
 _Global Temperature Anomalies_:
 - CSV datasets were mapped to curves using curveVertex() for smooth interpolation
 noise() added organic variation, and lerpColor() created gradients communicating temperature changes
+
 _Sea Level Rise_:
 - Years mapped to vertical positions to simulate rising waves using sin() and millis() for dynamic animation
 Layered waves with colour interpolation depict environmental deterioration over time
+
 _Deforestation_:
 - Object-oriented approach representing each country as an object with update() and display() functions
 sin() and cos() generate floating/pulsing effects, with colour coding for forest loss (reds/oranges) and regrowth (greens)
