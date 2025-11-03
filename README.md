@@ -14,10 +14,10 @@ Table of Contents
 
 General Info
 
-This project falls under the artistic and data-driven visualisation category. I aimed to create visuals that both unsettle and inform, encouraging viewers to critically engage with climate issues. Each prototype was designed to combine aesthetic abstraction with data representation:
-- The first prototype visualises global temperature anomalies over time using curves and colour gradients.
-- The second simulates rising waves to represent sea level changes dynamically.
-- The third employs object-oriented programming to show deforestation and regrowth patterns per country.
+This project falls under the artistic and data-driven visualisation category. I aimed to create visuals that both unsettle and inform, encouraging viewers to take initiative in climate change action. Each prototype was designed to combine aesthetic abstraction with data representation:
+- The first prototype visualises global temperature anomalies over time using curves and colour gradients
+- The second simulates rising waves to represent sea level changes dynamically
+- The third employs object-oriented programming to show deforestation and regrowth patterns per country
 
 Coding Environment
 
@@ -32,24 +32,24 @@ Tutorials from The Dot is Black (2025), Moiré Pattern series, LinkedIn Learning
 Functionality
 
 _Global Temperature Anomalies_:
-- CSV datasets were mapped to curves using curveVertex() for smooth interpolation.
-noise() added organic variation, and lerpColor() created gradients communicating temperature changes.
+- CSV datasets were mapped to curves using curveVertex() for smooth interpolation
+noise() added organic variation, and lerpColor() created gradients communicating temperature changes
 _Sea Level Rise_:
-- Years mapped to vertical positions to simulate rising waves using sin() and millis() for dynamic animation.
-Layered waves with colour interpolation depict environmental deterioration over time.
+- Years mapped to vertical positions to simulate rising waves using sin() and millis() for dynamic animation
+Layered waves with colour interpolation depict environmental deterioration over time
 _Deforestation_:
-- Object-oriented approach representing each country as an object with update() and display() functions.
-sin() and cos() generate floating/pulsing effects, with colour coding for forest loss (reds/oranges) and regrowth (greens).
+- Object-oriented approach representing each country as an object with update() and display() functions
+sin() and cos() generate floating/pulsing effects, with colour coding for forest loss (reds/oranges) and regrowth (greens)
 
-Peer feedback influenced colour hierarchy, layering, and spacing for improved interpretability.
-Emphasis on balancing aesthetic impact with accuracy, ensuring viewers understand the data while remaining visually engaged.
+Peer feedback influenced colour hierarchy, layering, and spacing for improved interpretability
+Emphasis on balancing aesthetic impact with accuracy, ensuring viewers understand the data while remaining visually engaged
 
 Setup
 
-1. Download and install Processing (Java mode) on your device.
-2. Open the prototype .pde files in Processing.
-3. Click the play button in the top-left corner of the Processing window to start the visualisations.
-No additional data preparation is required, the code automatically accesses the necessary datasets and generates the visuals.
+1. Download and install Processing (Java mode) on your device
+2. Open the prototype .pde files in Processing
+3. Click the play button in the top-left corner of the Processing window to start the visualisations
+No additional data preparation is required, the code automatically accesses the necessary datasets and generates the visuals
 
 Project Status
 
